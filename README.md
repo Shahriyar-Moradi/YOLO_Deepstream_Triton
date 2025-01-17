@@ -16,7 +16,7 @@ cd triton-server-yolo
 
 ### Start Docker container
 
-
+```
 bash ./start-container-triton-server.sh
 
 Install compiled libnvinfer_plugin with YoloNMS
@@ -42,7 +42,7 @@ bash ./start-triton-server.sh  \
 --opt_batch_size 4 \
 --max_batch_size 4 \
 --instance_group 1 
-
+```
     
  
 
