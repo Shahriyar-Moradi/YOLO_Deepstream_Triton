@@ -14,7 +14,7 @@ git clone https://github.com/levipereira/triton-server-yolo.git
 cd triton-server-yolo
 
 
-# Start Docker container
+### Start Docker container
 
 
 bash ./start-container-triton-server.sh
@@ -74,7 +74,7 @@ Script to start the Docker container for Deepstream with YOLOv9 model support se
 
 Note: This script must be executed on the host operating system.
 
-bash ./start_deepstream_container.sh
+```bash ./start_deepstream_container.sh```
 
 
 
