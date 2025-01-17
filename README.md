@@ -89,13 +89,21 @@ The Dockerfile run the script user_deepstream_python_apps_install.sh to install 
 
 Installing custom parse lib NvDsInferYoloEfficientNMS for Gst-nvinferserver
 The repository nvdsinfer_yolo_efficient_nms is cloned from GitHub into the /tmp directory.
+
+
 The contents of the repository are then copied to the DeepStream sources directory (/opt/nvidia/deepstream/deepstream/sources/libs/).
+
+
 The custom library is built and installed using the provided Makefile.
 Install Application deepstream-yolo-triton-server-rtsp-out to Docker
 A directory /deepstream_python_apps/apps/ is created within the Docker image.
+
+```
 Git Clone https://github.com/levipereira/deepstream-yolo-triton-server-rtsp-out
 The DeepStream application files (deepstream-yolo-triton-server-rtsp-out) are copied into the created directory.
 The working directory is set to the copied application directory.
+
+```
 
 
 4. Using Sample Application `ds-6.4-ts-yolo-rtsp-out`  
