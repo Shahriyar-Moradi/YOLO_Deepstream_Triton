@@ -28,8 +28,10 @@ cd TensorRTPlugin
 ./patch_libnvinfer.sh --download
 
 cd ..
+
     ```
 
+Next, start Triton Server with the following command:
 
     ```
 cd /apps
