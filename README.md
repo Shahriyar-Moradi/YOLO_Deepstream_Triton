@@ -66,9 +66,11 @@ To deploy the Docker image for Deepstream with YOLOv9 model support served by Tr
 
 Note: This script must be executed on the host operating system.
 
-git clone https://github.com/levipereira/docker_images.git
+```git clone https://github.com/levipereira/docker_images.git
 cd ./docker_images/ds-6.4-ts-yolo/
 bash ./build_ds-6.4_ts.sh
+```
+
 2. Starting Docker Image
 Script to start the Docker container for Deepstream with YOLOv9 model support served by Triton Server.
 
