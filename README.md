@@ -16,7 +16,7 @@ cd triton-server-yolo
 
 # Start Docker container
 
-    ```
+
 bash ./start-container-triton-server.sh
 
 Install compiled libnvinfer_plugin with YoloNMS
@@ -29,11 +29,11 @@ cd TensorRTPlugin
 
 cd ..
 
-    ```
+
 
 Next, start Triton Server with the following command:
 
-       ```bash
+
 cd /apps
 bash ./start-triton-server.sh  \
 --models yolov9-c,yolov7 \
@@ -43,7 +43,7 @@ bash ./start-triton-server.sh  \
 --max_batch_size 4 \
 --instance_group 1 
 
-    ```
+    
  
 
 ### 2. Deploy and Start DeepStream 
