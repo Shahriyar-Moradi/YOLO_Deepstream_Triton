@@ -33,7 +33,7 @@ cd ..
 
 Next, start Triton Server with the following command:
 
-    ```
+       ```bash
 cd /apps
 bash ./start-triton-server.sh  \
 --models yolov9-c,yolov7 \
